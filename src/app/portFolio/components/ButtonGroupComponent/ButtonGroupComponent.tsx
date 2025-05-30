@@ -1,4 +1,3 @@
-import React from 'react';
 import { Button } from '@mui/material';
 import { ButtonGroup } from './styles/ButtonGroupComponent.styles';
 import useDownloadPDF from '../../hooks/useDownloadPDF/useDownloadPDF';

@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { Typography } from '@mui/material';
 import AvatarComponent from '../components/AvatarComponent/AvatarComponent';
 import ButtonGroupComponent from '../components/ButtonGroupComponent/ButtonGroupComponent';

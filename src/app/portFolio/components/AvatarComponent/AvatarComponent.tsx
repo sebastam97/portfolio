@@ -1,4 +1,3 @@
-import React from 'react';
 import { AvatarStyled } from './styles/AvatarComponent.styles';
 
 const AvatarComponent = () => {
