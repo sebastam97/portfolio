@@ -6,4 +6,6 @@ export const router = createBrowserRouter([
     path: '/',
     element: <PortFolio />
   }
-]);
+], {
+  basename: '/portfolio/'
+});
