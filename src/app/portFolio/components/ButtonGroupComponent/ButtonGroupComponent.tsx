@@ -22,7 +22,7 @@ const ButtonGroupComponent = () => {
         href="mailto:sebastianbox97@hotmail.com"
         {...{ target: '_blank', rel: 'noopener noreferrer' }}
       >
-        Email
+        Email me
       </RetroButton>
     </ButtonGroup>
   );
