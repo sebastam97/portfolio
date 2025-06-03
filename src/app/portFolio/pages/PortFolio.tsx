@@ -1,15 +1,16 @@
-import { Typography } from '@mui/material';
 import AvatarComponent from '../components/AvatarComponent/AvatarComponent';
 import ButtonGroupComponent from '../components/ButtonGroupComponent/ButtonGroupComponent';
 import IconButtonGroupComponent from '../components/IconButtonGroupComponent/IconButtonGroupComponent';
+import BlinkingCursor from '../components/Cursor/Cursor';
+import Title from '../components/Title/Title';
 
 function PortFolio() {
   return (
     <>
       <AvatarComponent />
-      <Typography variant="h4" gutterBottom>
-        Sebastian Tamayo Villalba
-      </Typography>
+      <Title>
+        Sebastian Tamayo Villalba <BlinkingCursor />
+      </Title>
       <ButtonGroupComponent />
       <IconButtonGroupComponent />
     </>

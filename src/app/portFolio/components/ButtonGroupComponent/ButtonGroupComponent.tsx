@@ -1,17 +1,21 @@
-import { Button } from '@mui/material';
-import { ButtonGroup } from './styles/ButtonGroupComponent.styles';
+import { ButtonGroup, RetroButton } from './styles/ButtonGroupComponent.styles';
 import useDownloadPDF from '../../hooks/useDownloadPDF/useDownloadPDF';
 
 const ButtonGroupComponent = () => {
   const { downloadPDF } = useDownloadPDF();
   return (
     <ButtonGroup>
-      <Button variant="contained" color="primary" onClick={downloadPDF}>
+      <RetroButton variant="contained" onClick={downloadPDF}>
         Descargar CV
-      </Button>
-      <Button variant="outlined" color="primary" href="#contact">
+      </RetroButton>
+      <RetroButton
+        variant="outlined"
+        as="a"
+        href="https://wa.me/573015978780"
+        {...{ target: '_blank', rel: 'noopener noreferrer' }}
+      >
         Contacto
-      </Button>
+      </RetroButton>
     </ButtonGroup>
   );
 };
