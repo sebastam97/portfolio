@@ -16,6 +16,14 @@ const ButtonGroupComponent = () => {
       >
         Contact me
       </RetroButton>
+      <RetroButton
+        variant="outlined"
+        as="a"
+        href="mailto:sebastianbox97@hotmail.com"
+        {...{ target: '_blank', rel: 'noopener noreferrer' }}
+      >
+        Email
+      </RetroButton>
     </ButtonGroup>
   );
 };

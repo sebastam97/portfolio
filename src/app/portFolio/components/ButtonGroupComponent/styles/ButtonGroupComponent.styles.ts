@@ -7,7 +7,11 @@ import { styled } from '@mui/material/styles';
 export const ButtonGroup = styled(MuiButtonGroup)({
   display: 'flex',
   gap: '16px',
-  marginBottom: '16px'
+  marginBottom: '16px',
+  flexDirection: 'row',
+  whiteSpace: 'nowrap',
+  flexWrap: 'wrap',
+  justifyContent: 'center'
 });
 
 export const RetroButton = styled(MuiButton)(({ variant }) => ({
