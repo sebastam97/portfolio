@@ -11,7 +11,7 @@ export const ButtonGroup = styled(MuiButtonGroup)({
 });
 
 export const RetroButton = styled(MuiButton)(({ variant }) => ({
-  fontFamily: '"Press Start 2P", cursive',
+  fontFamily: 'Press Start 2P',
   fontSize: '12px',
   padding: '10px 20px',
   border: '2px solid #000',

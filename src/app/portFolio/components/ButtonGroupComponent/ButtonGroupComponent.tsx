@@ -6,7 +6,7 @@ const ButtonGroupComponent = () => {
   return (
     <ButtonGroup>
       <RetroButton variant="contained" onClick={downloadPDF}>
-        Descargar CV
+        Download CV
       </RetroButton>
       <RetroButton
         variant="outlined"
@@ -14,7 +14,7 @@ const ButtonGroupComponent = () => {
         href="https://wa.me/573015978780"
         {...{ target: '_blank', rel: 'noopener noreferrer' }}
       >
-        Contacto
+        contact me
       </RetroButton>
     </ButtonGroup>
   );
