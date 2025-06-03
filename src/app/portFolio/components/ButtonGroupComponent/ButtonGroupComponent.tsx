@@ -14,7 +14,7 @@ const ButtonGroupComponent = () => {
         href="https://wa.me/573015978780"
         {...{ target: '_blank', rel: 'noopener noreferrer' }}
       >
-        contact me
+        Contact me
       </RetroButton>
     </ButtonGroup>
   );
