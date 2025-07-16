@@ -244,7 +244,7 @@ Please change the parent <Route path="${M}"> to <Route path="${M==="/"?"*":`${M}
 `,V5=()=>re.jsx(q5,{}),X5=Mv(re.jsx("path",{d:"M12 1.27a11 11 0 00-3.48 21.46c.55.09.73-.28.73-.55v-1.84c-3.03.64-3.67-1.46-3.67-1.46-.55-1.29-1.28-1.65-1.28-1.65-.92-.65.1-.65.1-.65 1.1 0 1.73 1.1 1.73 1.1.92 1.65 2.57 1.2 3.21.92a2 2 0 01.64-1.47c-2.47-.27-5.04-1.19-5.04-5.5 0-1.1.46-2.1 1.2-2.84a3.76 3.76 0 010-2.93s.91-.28 3.11 1.1c1.8-.49 3.7-.49 5.5 0 2.1-1.38 3.02-1.1 3.02-1.1a3.76 3.76 0 010 2.93c.83.74 1.2 1.74 1.2 2.94 0 4.21-2.57 5.13-5.04 5.4.45.37.82.92.82 2.02v3.03c0 .27.1.64.73.55A11 11 0 0012 1.27"})),P5=Mv(re.jsx("path",{d:"M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"})),Q5=Xt.div`
   display: flex;
   gap: 8px;
-`,K5=()=>re.jsxs(Q5,{children:[re.jsx(i0,{color:"inherit",href:"https://www.linkedin.com/in/sebastian-tamayo-villalba-1a1a421a2",target:"_blank",children:re.jsx(P5,{})}),re.jsx(i0,{color:"inherit",href:"https://github.com/sebastam97",target:"_blank",children:re.jsx(X5,{})})]}),Z5=Th`
+`,K5=()=>re.jsxs(Q5,{children:[re.jsx(i0,{color:"inherit",href:"https://www.linkedin.com/in/sebastian-tamayo-villalba-1a1a421a2",target:"_blank",children:re.jsx(P5,{})}),re.jsx(i0,{color:"inherit",href:"https://github.com/sebastam97",target:"_blank",children:re.jsx(X5,{})})]});function Z5(){return{projectsData:[{id:1,title:"Cloud Library",description:"Una biblioteca en la nube para gestionar y leer libros digitales, desarrollada con Next js y Tanstack.",imageUrl:"/portfolio/BookStore.png",liveUrl:"https://sebastam97.github.io/cloudLibrary/",repoUrl:"https://github.com/sebastam97/cloudLibrary",technologies:["React","TypeScript","Tanstack","Styled-Components","Heroui","Css"]},{id:2,title:"Smiofi-Profesionales",description:"Una aplicacion web para gestionar casos con firma electronica, desarrollada con React 18 y Firestore.",imageUrl:"/portfolio/Smiofi.png",liveUrl:"https://www.smiofi.com/app/profesional",repoUrl:"",technologies:["React","TypeScript","Firebase","Material UI","Css"]},{id:3,title:"Smiofi-Clientes",description:"Una aplicacion web para gestionar casos para clientes con firma electronica, desarrollada con React 18 y Firestore.",imageUrl:"/portfolio/smiofi-clientes.png",liveUrl:"https://www.smiofi.com/app/invitado",repoUrl:"",technologies:["React","TypeScript","Firebase","Material UI","Css"]}]}}const F5=Th`
   from {
     opacity: 0;
     transform: translateY(20px);
@@ -253,23 +253,23 @@ Please change the parent <Route path="${M}"> to <Route path="${M==="/"?"*":`${M}
     opacity: 1;
     transform: translateY(0);
   }
-`,F5=Xt.section`
+`,J5=Xt.section`
   padding: 4rem 2rem;
   text-align: center;
-  animation: ${Z5} 1s ease-in-out;
+  animation: ${F5} 1s ease-in-out;
 
   h2 {
     font-size: 2.5rem;
     margin-bottom: 2rem;
     color: #e2e8f0;
   }
-`,J5=Xt.div`
+`,W5=Xt.div`
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: 2rem;
   max-width: 1200px;
   margin: 0 auto;
-`,W5=Xt.div`
+`,I5=Xt.div`
   background-color: #2d3748;
   border-radius: 10px;
   overflow: hidden;
@@ -284,11 +284,11 @@ Please change the parent <Route path="${M}"> to <Route path="${M==="/"?"*":`${M}
     transform: translateY(-10px);
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
   }
-`,I5=Xt.img`
+`,e3=Xt.img`
   width: 100%;
   height: 250px;
   object-fit: cover;
-`,e3=Xt.div`
+`,t3=Xt.div`
   padding: 1.5rem;
   display: flex;
   flex-direction: column;
@@ -302,23 +302,23 @@ Please change the parent <Route path="${M}"> to <Route path="${M==="/"?"*":`${M}
     flex-grow: 1;
     margin-bottom: 1rem;
   }
-`,t3=Xt.h3`
+`,n3=Xt.h3`
   font-size: 1.5rem;
   color: #e2e8f0;
   margin-bottom: 0.5rem;
-`,n3=Xt.div`
+`,a3=Xt.div`
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
   margin-bottom: 1.5rem;
-`,a3=Xt.span`
+`,r3=Xt.span`
   background-color: #4a5568;
   color: #e2e8f0;
   padding: 0.25rem 0.75rem;
   border-radius: 9999px;
   font-size: 0.8rem;
   font-weight: 500;
-`,r3=Xt.div`
+`,l3=Xt.div`
   display: flex;
   gap: 1rem;
   margin-top: auto;
@@ -339,7 +339,7 @@ Please change the parent <Route path="${M}"> to <Route path="${M==="/"?"*":`${M}
       color: #1a202c;
     }
   }
-`,l3=[{id:1,title:"Cloud Library",description:"Una biblioteca en la nube para gestionar y leer libros digitales, desarrollada con Next js y Tanstack.",imageUrl:"/portfolio/BookStore.png",liveUrl:"https://sebastam97.github.io/cloudLibrary/",repoUrl:"https://github.com/sebastam97/cloudLibrary",technologies:["React","TypeScript","Tanstack","Styled-Components","Heroui","Css"]}],i3=()=>re.jsxs(F5,{children:[re.jsx("h2",{children:"Mis Proyectos"}),re.jsx(J5,{children:l3.map(n=>re.jsxs(W5,{children:[re.jsx(I5,{src:n.imageUrl,alt:n.title}),re.jsxs(e3,{children:[re.jsx(t3,{children:n.title}),re.jsx("p",{children:n.description}),re.jsx(n3,{children:n.technologies.map(r=>re.jsx(a3,{children:r},r))}),re.jsxs(r3,{children:[re.jsx("a",{href:n.liveUrl,target:"_blank",rel:"noopener noreferrer",children:"Ver Demo"}),n.repoUrl&&re.jsx("a",{href:n.repoUrl,target:"_blank",rel:"noopener noreferrer",children:"Ver Código"})]})]})]},n.id))})]}),o3=Xt.h1`
+`,i3=()=>{const{projectsData:n}=Z5();return re.jsxs(J5,{children:[re.jsx("h2",{children:"Mis Proyectos y Colaboraciones"}),re.jsx(W5,{children:n.map(r=>re.jsxs(I5,{children:[re.jsx(e3,{src:r.imageUrl,alt:r.title}),re.jsxs(t3,{children:[re.jsx(n3,{children:r.title}),re.jsx("p",{children:r.description}),re.jsx(a3,{children:r.technologies.map(i=>re.jsx(r3,{children:i},i))}),re.jsxs(l3,{children:[re.jsx("a",{href:r.liveUrl,target:"_blank",rel:"noopener noreferrer",children:"Ver Demo"}),r.repoUrl&&re.jsx("a",{href:r.repoUrl,target:"_blank",rel:"noopener noreferrer",children:"Ver Código"})]})]})]},r.id))})]})},o3=Xt.h1`
   font-size: 2.5rem;
   font-weight: bold;
   text-align: center;
