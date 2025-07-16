@@ -34,7 +34,7 @@ export const ProjectsComponent = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Ver Demo
+                  Ver Projecto
                 </a>
                 {project.repoUrl && (
                   <a
