@@ -344,7 +344,7 @@ Please change the parent <Route path="${M}"> to <Route path="${M==="/"?"*":`${M}
       color: #1a202c;
     }
   }
-`,i3=()=>{const{projectsData:n}=Z5();return re.jsxs(J5,{children:[re.jsx("h2",{children:"Mis Proyectos y Colaboraciones"}),re.jsx(W5,{children:n.map(r=>re.jsxs(I5,{children:[re.jsx(e3,{src:r.imageUrl,alt:r.title}),re.jsxs(t3,{children:[re.jsx(n3,{children:r.title}),re.jsx("p",{children:r.description}),re.jsx(a3,{children:r.technologies.map(i=>re.jsx(r3,{children:i},i))}),re.jsxs(l3,{children:[re.jsx("a",{href:r.liveUrl,target:"_blank",rel:"noopener noreferrer",children:"Ver Demo"}),r.repoUrl&&re.jsx("a",{href:r.repoUrl,target:"_blank",rel:"noopener noreferrer",children:"Ver Código"})]})]})]},r.id))})]})},o3=Xt.h1`
+`,i3=()=>{const{projectsData:n}=Z5();return re.jsxs(J5,{children:[re.jsx("h2",{children:"Mis Proyectos y Colaboraciones"}),re.jsx(W5,{children:n.map(r=>re.jsxs(I5,{children:[re.jsx(e3,{src:r.imageUrl,alt:r.title}),re.jsxs(t3,{children:[re.jsx(n3,{children:r.title}),re.jsx("p",{children:r.description}),re.jsx(a3,{children:r.technologies.map(i=>re.jsx(r3,{children:i},i))}),re.jsxs(l3,{children:[re.jsx("a",{href:r.liveUrl,target:"_blank",rel:"noopener noreferrer",children:"Ver Projecto"}),r.repoUrl&&re.jsx("a",{href:r.repoUrl,target:"_blank",rel:"noopener noreferrer",children:"Ver Código"})]})]})]},r.id))})]})},o3=Xt.h1`
   font-size: 2.5rem;
   font-weight: bold;
   text-align: center;
