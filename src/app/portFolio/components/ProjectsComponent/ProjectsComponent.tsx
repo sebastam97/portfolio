@@ -1,3 +1,4 @@
+import useGetProjects from './hooks/useGetProjects';
 import {
   ProjectCard,
   ProjectContent,
@@ -10,40 +11,11 @@ import {
   TechnologyList
 } from './styles/ProjectsComponent.styles';
 
-interface Project {
-  id: number;
-  title: string;
-  description: string;
-  imageUrl: string;
-  liveUrl: string;
-  repoUrl?: string;
-  technologies: string[];
-}
-
-const projectsData: Project[] = [
-  {
-    id: 1,
-    title: 'Cloud Library',
-    description:
-      'Una biblioteca en la nube para gestionar y leer libros digitales, desarrollada con Next js y Tanstack.',
-    imageUrl: `${import.meta.env.BASE_URL}BookStore.png`,
-    liveUrl: 'https://sebastam97.github.io/cloudLibrary/',
-    repoUrl: 'https://github.com/sebastam97/cloudLibrary',
-    technologies: [
-      'React',
-      'TypeScript',
-      'Tanstack',
-      'Styled-Components',
-      'Heroui',
-      'Css'
-    ]
-  }
-];
-
 export const ProjectsComponent = () => {
+  const { projectsData } = useGetProjects();
   return (
     <ProjectsSection>
-      <h2>Mis Proyectos</h2>
+      <h2>Mis Proyectos y Colaboraciones</h2>
       <ProjectsGrid>
         {projectsData.map((project) => (
           <ProjectCard key={project.id}>
