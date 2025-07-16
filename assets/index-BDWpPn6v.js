@@ -265,10 +265,15 @@ Please change the parent <Route path="${M}"> to <Route path="${M==="/"?"*":`${M}
   }
 `,W5=Xt.div`
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 2rem;
   max-width: 1200px;
   margin: 0 auto;
+
+  @media (max-width: 1024px) {
+    grid-template-columns: 1fr;
+    max-width: 600px;
+  }
 `,I5=Xt.div`
   background-color: #2d3748;
   border-radius: 10px;
