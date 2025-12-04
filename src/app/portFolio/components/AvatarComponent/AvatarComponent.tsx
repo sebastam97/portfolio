@@ -4,7 +4,7 @@ const AvatarComponent = () => {
   return (
     <AvatarStyled
       alt="Tu Foto"
-      src={`${import.meta.env.BASE_URL}profile.jpeg`}
+      src={`${import.meta.env.BASE_URL}profile.jpg`}
     />
   );
 };
